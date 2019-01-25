@@ -430,7 +430,15 @@ template {
     border: 1px solid #ddd !important;
   }
 }
-
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 *,
 *::before,
 *::after {
@@ -1928,7 +1936,7 @@ pre code {
 
 .table-hover .table-primary:hover>td,
 .table-hover .table-primary:hover>th {
-  background-color: #a9d7fb;
+  background-color: #fdfdfd;
 }
 
 .table-secondary,
